@@ -19,17 +19,17 @@ Route::get('/print/code-breaker', function () {
 
     if (! empty($decoded)) {
         $words = explode(' ', $decoded);
-        
+
         foreach ($words as $wordIndex => $word) {
             $chars = preg_split('//u', $word, -1, PREG_SPLIT_NO_EMPTY);
-            
+
             foreach ($chars as $char) {
                 $lower = mb_strtolower($char);
                 if (isset($emojiPool[$lower])) {
                     $allEmojis[] = $emojiPool[$lower];
                 }
             }
-            
+
             if ($wordIndex < count($words) - 1) {
                 $allEmojis[] = ' ';
             }

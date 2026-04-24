@@ -103,12 +103,12 @@
             .border-animate { animation: border-glow 3s ease-in-out infinite; }
         </style>
 
-        <div container class="mx-auto wire:max-w-2xl relative z-10">
-            <header class="mb-6 text-center">
+        <div container class="mx-auto max-w-2xl sm:max-w-xl px-4 relative z-10">
+            <header class="mb-4 sm:mb-6 text-center">
                 <div class="inline-block logo-float logo-glow">
-                    <img src="{{ asset('Livewire.svg') }}" alt="Code Breaker Logo" class="mx-auto h-32 w-32">
+                    <img src="{{ asset('Livewire.svg') }}" alt="Code Breaker Logo" class="mx-auto h-24 w-24 sm:h-32 sm:w-32">
                 </div>
-                <h1 class="mt-4 text-7xl font-display text-white uppercase title-glow">
+                <h1 class="mt-4 text-4xl sm:text-6xl md:text-7xl font-display text-white uppercase title-glow leading-tight">
                     <span style="letter-spacing: 0.15em;">C</span><span style="letter-spacing: 0.05em;">o</span><span style="letter-spacing: 0.25em;">d</span><span style="letter-spacing: 0.1em;">e</span>
                     <span style="letter-spacing: 0.35em;">B</span><span style="letter-spacing: 0.08em;">r</span><span style="letter-spacing: 0.2em;">e</span><span style="letter-spacing: 0.12em;">a</span><span style="letter-spacing: 0.18em;">k</span><span style="letter-spacing: 0.25em;">e</span><span style="letter-spacing: 0.05em;">r</span>
                 </h1>

@@ -290,7 +290,7 @@
     <button class="close-btn no-print" onclick="window.close()">✕ Close</button>
     
     <div class="header">
-        <img src="/storage/Livewire.svg" alt="Livewire Logo" style="height: 80px; margin-bottom: 10px;">
+        <img src="{{ asset('Livewire.svg') }}" alt="Livewire Logo" style="height: 80px; margin-bottom: 10px;">
         <h1 style="margin-top: 10px;">CODE BREAKER</h1>
     </div>
 
