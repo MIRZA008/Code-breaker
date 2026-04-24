@@ -106,7 +106,7 @@
         <div container class="mx-auto wire:max-w-2xl relative z-10">
             <header class="mb-6 text-center">
                 <div class="inline-block logo-float logo-glow">
-                    <img src="{{ asset('storage/Livewire.svg') }}" alt="Code Breaker Logo" class="mx-auto h-32 w-32">
+                    <img src="{{ asset('Livewire.svg') }}" alt="Code Breaker Logo" class="mx-auto h-32 w-32">
                 </div>
                 <h1 class="mt-4 text-7xl font-display text-white uppercase title-glow">
                     <span style="letter-spacing: 0.15em;">C</span><span style="letter-spacing: 0.05em;">o</span><span style="letter-spacing: 0.25em;">d</span><span style="letter-spacing: 0.1em;">e</span>
